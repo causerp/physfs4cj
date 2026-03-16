@@ -71,4 +71,4 @@ main() {
 
 ## License
 
-MIT No Attribution
+zlib License

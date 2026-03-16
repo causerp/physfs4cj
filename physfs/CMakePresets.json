@@ -6,7 +6,7 @@
       "hidden": true,
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
-        "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "${sourceDir}",
+        "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "${sourceDir}/build/lib",
         "CMAKE_BUILD_TYPE": "Release",
         "PHYSFS_ARCHIVE_ZIP": true,
         "PHYSFS_ARCHIVE_7Z": true,

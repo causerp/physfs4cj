@@ -15,4 +15,4 @@
   cenum = { git = "https://github.com/causerp/cenum.git", tag = "v1.1.2"}
 
 [ffi.c]
-  physfs = { path = "./physfs" }
+  physfs = { path = "./physfs/build/lib" }
