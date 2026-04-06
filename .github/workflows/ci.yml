@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup llvm-mingw (Windows)
         if: runner.os == 'Windows'
@@ -34,7 +34,7 @@ jobs:
         run: clang --version
 
       - name: Setup Cangjie
-        uses: Zxilly/setup-cangjie@d932a790bbb53ff47ead0609829d91a1e831a440
+        uses: Zxilly/setup-cangjie@v2.1.1
         with:
           channel: lts
           version: ${{ matrix.cangjie_version }}
