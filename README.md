@@ -82,7 +82,7 @@ into your project directory. Then, configure your `cjpm.toml` to use it as a bin
 This example demonstrates the typical lifecycle: initializing the library, mounting a directory
 (or archive), reading a file, and cleaning up.
 
-```
+```cangjie
 import physfs4cj.PhysFS
 
 main() {
